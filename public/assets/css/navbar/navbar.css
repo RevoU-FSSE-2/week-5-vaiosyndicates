@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: start;
+  position: sticky;
+  width: 100%;
+  background-color:#f8f9ff;
+  top:0;
+}
+.header nav ul {
+  display: flex;
+}
+
+.img-logos {
+  width: 25vh;
+}
+.logo {
+  margin: 4vh;
+}
+
+.header nav ul li {
+  list-style-type: none;
+  margin: 0 2%;
+}
+.header nav ul li a {
+  font-family: var(--fontBold);
+}
+.menu-desktop {
+  align-self: center;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+@font-face { 
+  font-family: roboto-regular; 
+  src: url('/public/assets/fonts/Roboto-Regular.ttf'); 
+} 
+@font-face { 
+  font-family: roboto-bold; 
+  src: url('/public/assets/fonts/Roboto-Bold.ttf'); 
+} 
+
+:root {
+  --fontDesc: roboto-regular;
+  --fontBold: roboto-bold;
+  --fontSizeDesc: 1.2rem;
+  --LineHDesc: 2.4rem;
+  --fontLight: 400;
+  --colorDesc: #979ba3;
+}

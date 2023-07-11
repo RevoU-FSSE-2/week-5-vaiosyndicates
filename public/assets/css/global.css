@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#f8f9ff;
+}
+.banner-wrapper {
+  margin: 0 8px;
+}
+.banner-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.img-banner {
+  width: 100%;
+  height: 80vh;
+}
+.hero {
+  background-image: url('/public/assets/image/banner2-remove.png');
+  width: 100%;
+  height: 85vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-description {
+  font-family: var(--fontDesc);
+  font-size: var(--fontSizeDesc);
+  line-height: var(--LineHDesc);
+  color: var(--colorDesc);
+}
+.banner-text {
+  align-self: center;
+  max-width: 40%;
+}
+.text-highlight {
+  font-size: 4rem;
+  margin: 0;
+}
+.feature-list {
+  background-color: #1053f3;
+}
+.feature-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.feature-wrapper div {
+  width: 20%;
+  padding: 2% 0;
+}
+.img-list{
+  width: 50%;
+  height: 9.5vh;
+}
+#orchestra {
+  margin: 2% 0;
+}
+.orchestra-wrapper {
+  display: flex;
+  margin: 0 8px;
+  justify-content: space-evenly;
+}
+.orchestra-desc {
+  width: 40%;
+}
+.integrate-wrapper {
+  display: flex;
+  margin: 0 8px;
+}
+.integrate-image {
+  background-image: url('/public/assets/image/integrate-1.png');
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-thumbs {
+  width: 100%;
+}
+#integrate {
+  background-color: #ffffff;
+  padding: 5% 0;
+}
+.highlight-right, .desc-right {
+  text-align: right;
+}
