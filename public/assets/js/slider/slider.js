@@ -2,7 +2,7 @@ $(document).ready(() => {
   console.log('ready')
   $('.brand-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:20,
     autoplay:true,
     responsive:{
       0:{

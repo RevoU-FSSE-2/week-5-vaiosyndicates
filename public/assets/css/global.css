@@ -54,7 +54,7 @@ body {
   height: 9.5vh;
 }
 #orchestra {
-  margin: 2% 0;
+  margin: 5% 0;
 }
 .orchestra-wrapper {
   display: flex;
@@ -78,10 +78,29 @@ body {
 .img-thumbs {
   width: 100%;
 }
+
 #integrate {
   background-color: #ffffff;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 .highlight-right, .desc-right {
   text-align: right;
+}
+#our-client {
+  padding: 5% 0;
+}
+.client-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.client-text {
+  text-align: center;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  padding: 2% 0;
+  background-color:#1053f3;
 }

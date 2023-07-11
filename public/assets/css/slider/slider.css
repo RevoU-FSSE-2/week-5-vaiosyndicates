@@ -1,14 +1,8 @@
-body {
-  background: aliceblue;
-  }
+
   .section-padding{
-  padding:60px 0;
+   padding:60px 0;
   }
-  .brand-carousel {
-  background: aliceblue;
-  margin-top: 15%;
-  }
-  .owl-dots {
+  /* .owl-dots {
   text-align: center;
   margin-top: 4%;
   }
@@ -22,5 +16,8 @@ body {
   margin: 0 5px;
   }
   .owl-dot.active {
-  background-color: #000 !important;
+  background-color: #000 !important; */
+  /* } */
+  .owl-item img {
+    height: 12vh;
   }
