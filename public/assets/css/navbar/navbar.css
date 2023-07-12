@@ -24,7 +24,53 @@
 .header nav ul li a {
   font-family: var(--fontBold);
 }
-.menu-desktop {
+.menus {
+  display: flex;
+  justify-content: space-between;
   align-self: center;
   width: 100%;
+}
+
+.aside{
+  position:fixed;
+  width:50%;
+  height:100%;
+  top:0;
+  background-color:var(--overlay-color);
+  z-index: 1;
+}
+
+.aside-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aside ul li {
+  list-style-type: none;
+  margin: 5%;
+}
+.aside ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@media (width < 576px) {
+  nav.aside {
+    display: none;
+  }
+  nav#desktop {
+    visibility: hidden;
+  }
+  nav#mobile {
+    align-self: center;
+    margin: 0 2%;
+  }
+  .img-logos{
+    width: 8vh;
+  }
+  #mobile-close {
+    display: none;
+  }
 }
