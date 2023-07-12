@@ -298,11 +298,3 @@ body, main {
 .client-text {
   text-align: center;
 }
-.footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-footer {
-  padding: 2% 0;
-  background-color:#1053f3;
-}
