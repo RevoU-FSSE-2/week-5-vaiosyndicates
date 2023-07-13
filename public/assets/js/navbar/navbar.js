@@ -1,5 +1,4 @@
 $(document).ready(() => {
-  console.log('ready nav')
   $('#mobile-open').on('click', (e) => {
     e.preventDefault();
     $('#mobile-close').css("display", "block")
