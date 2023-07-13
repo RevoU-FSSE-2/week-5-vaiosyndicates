@@ -2,22 +2,29 @@
   .section-padding{
    padding:60px 0;
   }
-  /* .owl-dots {
-  text-align: center;
-  margin-top: 4%;
-  }
-  .owl-dot {
-  display: inline-block;
-  height: 15px !important;
-  width: 15px !important;
-  background-color: #878787 !important;
-  opacity: 0.8;
-  border-radius: 50%;
-  margin: 0 5px;
-  }
-  .owl-dot.active {
-  background-color: #000 !important; */
-  /* } */
+  
   .owl-item img {
     height: 12vh;
+  }
+
+  @media (width < 576px) {
+    .brand-carousel {
+      z-index: 0;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 768px) {
+    .brand-carousel {
+      z-index: 0;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 991px) {
+  
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+  
+  }
+  @media (min-width: 1201px) {
+  
   }

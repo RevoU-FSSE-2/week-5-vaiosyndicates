@@ -23,8 +23,147 @@
 }
 .header nav ul li a {
   font-family: var(--fontBold);
+  color: #a1a4aa;
+  text-decoration: none;
 }
-.menu-desktop {
+.menus {
+  display: flex;
+  justify-content: space-between;
   align-self: center;
   width: 100%;
+}
+
+.aside{
+  position:fixed;
+  width:50%;
+  height:100%;
+  top:0;
+  background-color:var(--overlay-color);
+  z-index: 1;
+}
+
+.aside-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aside ul li {
+  list-style-type: none;
+  margin: 5%;
+}
+.aside ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@media (width < 576px) {
+  nav.aside {
+    display: none;
+  }
+  nav#desktop {
+    visibility: hidden;
+  }
+  nav#mobile {
+    align-self: center;
+    margin: 0 2%;
+  }
+  .img-logos{
+    width: 8vh;
+  }
+  #mobile-close {
+    display: none;
+  }
+  .menus {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    width: 60%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  nav.aside {
+    display: none;
+    position:fixed;
+    width:25%;
+    height:100%;
+    top:0;
+    background-color:var(--overlay-color);
+    z-index: 1;    
+  }
+  nav#desktop {
+    visibility: hidden;
+  }
+  nav#mobile {
+    align-self: center;
+    margin: 0 2%;
+  }
+  .img-logos{
+    width: 8vh;
+  }
+  #mobile-close {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  nav#desktop {
+    visibility: visible;
+  }
+  nav#mobile {
+    visibility: hidden;
+  }
+  .img-logos {
+   width: 15vh; 
+  }
+  #mobile-close {
+    display: none;
+  }
+  nav.aside {
+    display: none;
+  }
+  nav.desktop ul li a {
+    font-size: var(--fontSizeLinkL);
+    text-decoration: none;
+  }
+  nav.desktop ul li {
+    margin: 0 4%;
+  }
+  .menus {
+    justify-content: flex-end;
+    margin: 0 5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  nav#desktop {
+    visibility: visible;
+  }
+  nav#mobile {
+    visibility: hidden;
+  }
+  nav.aside {
+    display: none;
+  }
+  #mobile-close {
+    display: none;
+  }
+}
+@media (min-width: 1201px) {
+  nav#desktop {
+    visibility: visible;
+  }
+  nav#mobile {
+    visibility: hidden;
+  }
+  nav.aside {
+    display: none;
+  }
+  #mobile-close {
+    display: none;
+  }
+  nav.desktop ul li {
+    margin: 0 4%;
+  }
 }

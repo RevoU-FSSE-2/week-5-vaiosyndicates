@@ -1,8 +1,240 @@
-body {
+body, main {
   margin: 0;
   padding: 0;
   background-color:#f8f9ff;
 }
+
+@media (width < 576px) {
+
+  .banner-wrapper, .orchestra-wrapper {
+    flex-direction: column-reverse;
+  }
+  .integrate-wrapper {
+    flex-direction: column;
+  }
+  h1.text-highlight {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #hero {
+    background-position: center;
+    height: 50vh;
+  }
+  .banner-text {
+    max-width: 100%;
+  }
+  .hero-description {
+    font-family: var(--fontDesc);
+    font-size: var(--fontSizeDescM);
+    line-height: var(--LineHDesc);
+    color: var(--colorDesc);
+    text-align: justify;
+  }
+  .feature-wrapper {
+    flex-wrap: wrap;
+  }
+  .feature-wrapper div {
+    width: 35%;
+    padding: 2% 2%;
+  }
+  .img-list{
+    width: 100%;
+    height: 7vh;
+  }
+  .img-thumbs {
+    width: 100%;
+  }
+  .orchestra-desc {
+    width: 100%;
+  }
+  .highlight-right, .desc-right {
+    text-align: center;
+  }
+  .integrate-image {
+    background-image: url('/public/assets/image/integrate-1.png');
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .img-list{
+    width: 60%;
+    height: 5vh;
+  }
+  .banner-wrapper, .orchestra-wrapper {
+    flex-direction: column-reverse;
+  }
+  .feature-wrapper div {
+    width: 100%;
+    padding: 2% 2%;
+  }
+  .feature-wrapper {
+    flex-wrap: nowrap;
+  }
+  #hero {
+    background-position: right;
+    height: 70vh;
+  }
+  h1.text-highlight {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .hero-description {
+    font-family: var(--fontDesc);
+    font-size: var(--fontSizeDescM);
+    line-height: var(--LineHDesc);
+    color: var(--colorDesc);
+    text-align: center;
+  }
+  .integrate-image {
+    background-image: url('/public/assets/image/integrate-1.png');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .integrate-wrapper {
+    flex-direction: column;
+  }
+  .highlight-right, .desc-right {
+    text-align: center;
+  }
+  .orchestra-img{
+    text-align: center;
+  }
+  .img-thumbs {
+    width: 70%;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .banner-wrapper, .orchestra-wrapper {
+    flex-direction: column-reverse;
+  }
+  #hero {
+    background-position: center;
+    height: 50vh;
+  }
+  .feature-wrapper div {
+    width: 100%;
+    padding: 2% 2%;
+  }
+  .img-list{
+    width: 60%;
+    height: 8vh;
+  }
+  .highlight-right, .desc-right {
+    text-align: center;
+  }
+  .hero-description {
+    font-family: var(--fontDesc);
+    font-size: var(--fontSizeDescL);
+    color: var(--colorDesc);
+    text-align: justify;
+  }
+  h1.text-highlight {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .img-thumbs {
+    width: 70%;
+    height: 40vh;
+  }
+  .orchestra-img{
+    text-align: center;
+  }
+  .integrate-wrapper {
+    flex-direction: column;
+  }
+  .integrate-image {
+    background-image: url('/public/assets/image/integrate-1.png');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .img-list{
+    width: 70%;
+    height: 9.5vh;
+  }
+  .feature-wrapper div {
+    width: 100%;
+    padding: 2% 2%;
+  }
+  #hero {
+    background-position: center;
+    height: 80vh;
+  }
+  .hero-description {
+    font-family: var(--fontDesc);
+    font-size: var(--fontSizeDesc);
+    line-height: var(--LineHDesc);
+    color: var(--colorDesc);
+  }
+  .banner-text {
+    align-self: center;
+    max-width: 40%;
+  }
+  .integrate-image {
+    background-image: url('/public/assets/image/integrate-1.png');
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+@media (min-width: 1201px) {
+  .banner-text {
+    align-self: center;
+    max-width: 40%;
+  }
+  .hero-description {
+    font-family: var(--fontDesc);
+    font-size: var(--fontSizeDesc);
+    line-height: var(--LineHDesc);
+    color: var(--colorDesc);
+  }
+  .feature-wrapper div {
+    width: 20%;
+    padding: 2% 0;
+  }
+  .img-list{
+    width: 50%;
+    height: 9.5vh;
+  }
+  .orchestra-desc {
+    width: 40%;
+  }
+  .highlight-right, .desc-right {
+    text-align: right;
+  }
+  .integrate-image {
+    background-image: url('/public/assets/image/integrate-1.png');
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-thumbs {
+    width: 100%;
+  }
+  .orchestra, .integrate, .our-client {
+    opacity: 0;
+  }
+}
+
+
 .banner-wrapper {
   margin: 0 8px;
 }
@@ -23,16 +255,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-description {
-  font-family: var(--fontDesc);
-  font-size: var(--fontSizeDesc);
-  line-height: var(--LineHDesc);
-  color: var(--colorDesc);
-}
-.banner-text {
-  align-self: center;
-  max-width: 40%;
-}
+
 .text-highlight {
   font-size: 4rem;
   margin: 0;
@@ -45,14 +268,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-.feature-wrapper div {
-  width: 20%;
-  padding: 2% 0;
-}
-.img-list{
-  width: 50%;
-  height: 9.5vh;
-}
+
 #orchestra {
   margin: 5% 0;
 }
@@ -61,31 +277,17 @@ body {
   margin: 0 8px;
   justify-content: space-evenly;
 }
-.orchestra-desc {
-  width: 40%;
-}
+
 .integrate-wrapper {
   display: flex;
   margin: 0 8px;
-}
-.integrate-image {
-  background-image: url('/public/assets/image/integrate-1.png');
-  width: 100%;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.img-thumbs {
-  width: 100%;
 }
 
 #integrate {
   background-color: #ffffff;
   padding: 10% 0;
 }
-.highlight-right, .desc-right {
-  text-align: right;
-}
+
 #our-client {
   padding: 5% 0;
 }
@@ -95,12 +297,4 @@ body {
 }
 .client-text {
   text-align: center;
-}
-.footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-footer {
-  padding: 2% 0;
-  background-color:#1053f3;
 }

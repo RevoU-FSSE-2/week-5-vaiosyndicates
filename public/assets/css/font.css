@@ -11,7 +11,13 @@
   --fontDesc: roboto-regular;
   --fontBold: roboto-bold;
   --fontSizeDesc: 1.2rem;
+  --fontSizeNavM: 1.5rem;
+  --fontSizeDescM: 1rem;
+  --fontSizeDescL: 1.8rem;
+  --fontSizeLinkL: 1.5rem;
   --LineHDesc: 2.4rem;
   --fontLight: 400;
   --colorDesc: #979ba3;
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --white: #f9f9f9;
 }

@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="/public/assets/css/navbar/navbar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/public/assets/css/slider/slider.css">
+  <link rel="stylesheet" href="/public/assets/css/footer/footer.css">
   <title>UBP</title>
 </head>
 <body>
@@ -16,111 +18,145 @@
 		<div class="logo">
 			<img src="/public/assets/image/logo-baru.png" alt="" class="img-logos">
 		</div>
-		<div class="menu-desktop">
+		<div class="menus">
 			<nav class="desktop" id="desktop">
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#track">Jalur</a></li>
-					<li><a href="#contact">Kontak</a></li>
+					<li><a href="#orchestra">Feature</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
+      <nav class="mobile" id="mobile">
+        <i class="medium material-icons hamburger" id="mobile-open">dehaze</i>
+        <i class="medium material-icons close" id="mobile-close">close</i>
+      </nav>
+    </div>
 	</header>
-  <div class="wrapper">
-    <section class="banner" id="banner">
-      <div class="banner-wrapper">
-       <div class="banner-text">
-        <h1 class="text-highlight">Integrate Anything Faster</h1> 
-        <p class="hero-description">
-          Seamlessly integrate data, applications, processes, devices, and 
-          clouds so that information and insights can flow more freely, turning your data into value.
-        </p>
-       </div>
-       <div class="hero" id="hero">
-        <!-- <img src="/public/assets/image/banner2-remove.png" alt="" class="img-banner"> -->
-       </div>
+  <nav class="aside" id="aside">
+    <div class="aside-wrap">
+      <div></div>
+      <div>
+        <ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#orchestra">Feature</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
       </div>
+    </div>
+  </nav>
+  <main class="main">
+    <section class="banner" id="banner">
+      <article>
+        <div class="banner-wrapper">
+          <div class="banner-text">
+           <h1 class="text-highlight">Integrate Anything Faster</h1> 
+           <p class="hero-description">
+             Seamlessly integrate data, applications, processes, devices, and 
+             clouds so that information and insights can flow more freely, turning your data into value.
+           </p>
+          </div>
+          <div class="hero" id="hero">
+           <!-- <img src="/public/assets/image/banner2-remove.png" alt="" class="img-banner"> -->
+          </div>
+         </div>
+      </article>
     </section>
     <section class="feature-list" id="feature-list">
-      <div class="feature-wrapper">
-        <div>
-          <img src="/public/assets/image/bca-white.png" alt="" class="img-list">
+      <article>
+        <div class="feature-wrapper">
+          <div>
+            <img src="/public/assets/image/bca-white.png" alt="" class="img-list">
+          </div>
+          <div>
+            <img src="/public/assets/image/mc-white.png" alt="" class="img-list">
+          </div>
+          <div>
+            <img src="/public/assets/image/paypal-white.png" alt="" class="img-list">
+          </div>
+          <div>
+            <img src="/public/assets/image/visa-white.png" alt="" class="img-list">
+          </div>
         </div>
-        <div>
-          <img src="/public/assets/image/mc-white.png" alt="" class="img-list">
-        </div>
-        <div>
-          <img src="/public/assets/image/paypal-white.png" alt="" class="img-list">
-        </div>
-        <div>
-          <img src="/public/assets/image/visa-white.png" alt="" class="img-list">
-        </div>
-      </div>
+      </article>
     </section>
     <section class="orchestra" id="orchestra">
-      <div class="orchestra-wrapper">
-        <div class="orchestra-img">
-          <img src="/public/assets/image/data-api-removebg.png" alt="">
+      <article>
+        <div class="orchestra-wrapper">
+          <div class="orchestra-img">
+            <img src="/public/assets/image/data-api-removebg.png" alt="" class="img-thumbs">
+          </div>
+          <div class="orchestra-desc">
+            <h1 class="text-highlight">Easy Data Orchestration</h1> 
+            <p class="hero-description">
+              No-code data orchestration is facilitated by an intuitive graphical tool used to design data movement, 
+              transformation and business-flow orchestration. Just drag and drop. Made it easy
+            </p>
+          </div>
         </div>
-        <div class="orchestra-desc">
-          <h1 class="text-highlight">Easy Data Orchestration</h1> 
-          <p class="hero-description">
-            No-code data orchestration is facilitated by an intuitive graphical tool used to design data movement, 
-            transformation and business-flow orchestration. Just drag and drop. Made it easy
-          </p>
-        </div>
-      </div>
+      </article>
     </section>
     <section class="integrate" id="integrate">
-      <div class="integrate-wrapper">
-        <div class="integrate-text">
-          <h1 class="text-highlight highlight-right">Integrate and Automate Everything</h1> 
-          <p class="hero-description desc-right">
-            Explore your freedom to your data and systems in complex multi-cloud environments and
-            zero risk with automate tasks using an easy drag-and-drop interface
-          </p>
+      <article>
+        <div class="integrate-wrapper">
+          <div class="integrate-text">
+            <h1 class="text-highlight highlight-right">Integrate and Automate Everything</h1> 
+            <p class="hero-description desc-right">
+              Explore your freedom to your data and systems in complex multi-cloud environments and
+              zero risk with automate tasks using an easy drag-and-drop interface
+            </p>
+          </div>
+          <div class="integrate-image">
+          </div>
         </div>
-        <div class="integrate-image">
-          <!-- <img src="/public/assets/image/integrate-1.png" alt="" class="img-thumbs"> -->
-        </div>
-      </div>
+      </article>
     </section>
     <section class="our-client" id="our-client">
-      <div class="client-wrapper">
-        <div class="client-text">
-          <h1 class="text-highlight">Our Clients</h1> 
+      <article>
+        <div class="client-wrapper">
+          <div class="client-text">
+            <h1 class="text-highlight">Our Clients</h1> 
+          </div>
+          <div class="brand-carousel section-padding owl-carousel">
+            <div class="single-logo">
+              <img src="/public/assets/image/allianz-logo.png" alt="">
+            </div>
+            <div class="single-logo">
+              <img src="/public/assets/image/bni-logo.png" alt="">
+            </div>
+            <div class="single-logo">
+              <img src="/public/assets/image/bri-logo.png" alt="">
+            </div>
+            <div class="single-logo">
+              <img src="/public/assets/image/mc-logo.png" alt="">
+            </div>
+            <div class="single-logo">
+              <img src="/public/assets/image/visa-logo.png" alt="">
+            </div>
+          </div>
         </div>
-        <div class="brand-carousel section-padding owl-carousel">
-          <div class="single-logo">
-            <img src="/public/assets/image/allianz-logo.png" alt="">
-          </div>
-          <div class="single-logo">
-            <img src="/public/assets/image/bni-logo.png" alt="">
-          </div>
-          <div class="single-logo">
-            <img src="/public/assets/image/bri-logo.png" alt="">
-          </div>
-          <div class="single-logo">
-            <img src="/public/assets/image/mc-logo.png" alt="">
-          </div>
-          <div class="single-logo">
-            <img src="/public/assets/image/visa-logo.png" alt="">
-          </div>
-        </div>
-      </div>
+      </article>
     </section>
     <footer>
       <div class="footer-wrapper">
         <div class="footer-logo">
-          <img src="/public/assets/image/logo-footer.png" alt="" class="img-logos">
+          <img src="/public/assets/image/logo-footer.png" alt="" class="img-logos-footer">
         </div>
+        <div></div>
         <div class="footer-contact">
-          <h2>Contact Us</h2>
+          <h2 class="text-highlight-2">Contact Us</h2>
+          <ul class="footer">
+            <li>JL Agung Timur 4 Blok O No. 2 Kav. 18-19, Sunter Podomoro, North Jakarta</li>
+            <li>+62 21 6512 313</li>
+            <li>flux.support@gmail.com</li>
+          </ul>
         </div>
       </div>
     </footer>
-  </div>
+  </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="/public/assets/js/slider/slider.js"></script>
+  <script src="/public/assets/js/navbar/navbar.js"></script>
+  <script src="/public/assets/js/scroll/scroll.js"></script>
 </body>
 </html>
