@@ -1,5 +1,4 @@
 $(document).ready(() => {
-  console.log('ready')
   $('.brand-carousel').owlCarousel({
     loop:true,
     margin:20,
