@@ -191,8 +191,7 @@ As we know that Jquery is a JavaScript library that used for building dynamic UI
 ```
 
   ![Logos](/public/assets/image/js-carousel.png)
-  ![](/public/assets/gif/client-carousel.gif)
-
+  ![](public/assets/gif/client-carousel.gif)
   </li> 
 </ol>
 
