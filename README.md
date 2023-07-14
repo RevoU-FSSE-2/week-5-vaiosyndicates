@@ -195,6 +195,20 @@ As we know that Jquery is a JavaScript library that used for building dynamic UI
   </li> 
 </ol>
 
+### VERSIONING CONTROL
+---
+For easier to maintain and collaboration, we can use GIT to help code versioning.
+
+> Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows
+> WIKIPEDIA
+
+### Branch
+For separate code from main repository, we can simply make branch using
+```
+  git checkout -b branch_name
+```
+
+
 ## Reach Me Out
 
 [![Linkedin Badge](https://img.shields.io/badge/-Ade_Kresna_D-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ade-kresna-dewantara/)
