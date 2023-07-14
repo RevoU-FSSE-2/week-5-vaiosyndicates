@@ -245,7 +245,7 @@ After we modifying some source, we must add the change to git state changes usin
 
 ### DEPLOYMENT
 
-Deployment for this website is successfully created at [https://fluxag.tech](https:/fluxag.tech)
+Deployment for this website is successfully created at [https://fluxag.tech](https://fluxag.tech)
 
 ## Reach Me Out
 
