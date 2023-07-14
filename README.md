@@ -243,6 +243,10 @@ After we modifying some source, we must add the change to git state changes usin
  If approve, the branch will be merged automatically
   ![Logos](/public/assets/image/pull-request2.png)
 
+### DEPLOYMENT
+
+Deployment for this website is successfully created at [https://fluxag.tech](https:/fluxag.tech)
+
 ## Reach Me Out
 
 [![Linkedin Badge](https://img.shields.io/badge/-Ade_Kresna_D-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ade-kresna-dewantara/)
