@@ -207,7 +207,41 @@ For separate code from main repository, we can simply make branch using
 ```
   git checkout -b branch_name
 ```
+  ![](public/assets/gif/branch_code.gif)
 
+Before doing the source changing, first we check the main repository after we move to new branch. The reason is the new branch will pull the latest change from main repository or the source change that we do before
+```
+  git status
+```
+  ![](public/assets/gif/branch_code1.gif)
+
+After we modifying some source, we must add the change to git state changes using 
+
+```
+  git add .
+```
+ ![](public/assets/gif/branch_code2.gif)
+
+ Then make commit and commit message
+
+ ```
+  git commit -m "commit_message"
+```
+ ![](public/assets/gif/branch_code3.gif)
+
+ Now we push to branch remote repository
+
+ ```
+  git push -u origin branch_name
+```
+ ![](public/assets/gif/branch_code4.gif)
+ ![](public/assets/gif/branch_code5.gif)
+
+ For merging to main branch, we can use Pull and Request feature
+ ![Logos](/public/assets/image/pull-request2.png)
+
+ If approve, the branch will be merged automatically
+  ![Logos](/public/assets/image/pull-request2.png)
 
 ## Reach Me Out
 
